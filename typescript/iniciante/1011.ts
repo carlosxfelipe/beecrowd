@@ -6,7 +6,7 @@ function calculateSphereVolume(radius: number): number {
   return volume;
 }
 
-const radius = Number(prompt()?.replace(",", "."));
+const radius = Number(prompt("Digite o raio da esfera:")?.replace(",", "."));
 const sphereVolume = calculateSphereVolume(radius);
 
 console.log(magenta(`VOLUME = ${bold(sphereVolume.toFixed(3))}`));

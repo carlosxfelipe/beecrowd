@@ -1,9 +1,9 @@
 import { bold, magenta } from "./../colors/colors";
 
-const A = Number(prompt());
-const B = Number(prompt());
-const C = Number(prompt());
-const D = Number(prompt());
+const A = Number(prompt("Digite o valor de A:"));
+const B = Number(prompt("Digite o valor de B:"));
+const C = Number(prompt("Digite o valor de C:"));
+const D = Number(prompt("Digite o valor de D:"));
 
 const difference = (A * B) - (C * D);
 

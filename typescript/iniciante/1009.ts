@@ -1,8 +1,8 @@
 import { bold, yellow } from "./../colors/colors";
 
-const sellerName = prompt(); // não usado, apenas para manter igual ao enunciado
-const fixedSalary = Number(prompt());
-const totalSales = Number(prompt());
+const sellerName = prompt("Digite o nome do vendedor:")!; // não usado, mas mantido
+const fixedSalary = Number(prompt("Digite o salário fixo:")!.replace(",", "."));
+const totalSales = Number(prompt("Digite o total de vendas:")!.replace(",", "."));
 
 const commissionRate = 0.15;
 const commission = totalSales * commissionRate;

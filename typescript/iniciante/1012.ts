@@ -1,6 +1,6 @@
 import { blue, bold } from "./../colors/colors";
 
-const input = (prompt() ?? "").split(" ");
+const input = (prompt("Digite os valores A, B e C separados por espaço:") ?? "").split(" ");
 const A = Number(input[0]?.replace(",", "."));
 const B = Number(input[1]?.replace(",", "."));
 const C = Number(input[2]?.replace(",", "."));

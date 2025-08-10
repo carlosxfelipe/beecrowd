@@ -1,7 +1,7 @@
 import { bold, cyan } from "./../colors/colors";
 
-const A = Number(prompt()?.replace(",", "."));
-const B = Number(prompt()?.replace(",", "."));
+const A = Number(prompt("Digite a primeira nota (A):")?.replace(",", "."));
+const B = Number(prompt("Digite a segunda nota (B):")?.replace(",", "."));
 
 const weightA = 3.5;
 const weightB = 7.5;
