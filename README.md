@@ -17,9 +17,14 @@ competitiva.
 ## Observação sobre TypeScript no Beecrowd
 
 A plataforma **Beecrowd** executa códigos TypeScript no ambiente **Node.js**.\
-Os exemplos deste repositório foram feitos para rodar com **Deno** ou **Bun**,
+Os exemplos deste repositório foram feitos para rodar com **Bun** ou **Deno**,
 portanto podem precisar de ajustes para serem compatíveis com o ambiente do
 Beecrowd.
+
+No **Deno**, ao importar arquivos locais ou remotos, é obrigatório informar a
+**extensão completa do arquivo**.\
+Isso significa que, diferente do Node.js ou Bun, não é possível omitir `.ts`,
+`.js` ou outra extensão suportada.
 
 ## Licença
 

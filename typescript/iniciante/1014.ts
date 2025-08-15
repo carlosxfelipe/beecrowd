@@ -1,7 +1,11 @@
 import { bold, green } from "./../colors/colors";
 
-const totalDistanceTraveled = Number(prompt("Digite a distância total percorrida (Km):"));
-const totalFuelConsumed = Number(prompt("Digite o total de combustível gasto (litros):")?.replace(",", "."));
+const totalDistanceTraveled = Number(
+  prompt("Digite a distância total percorrida (Km):"),
+);
+const totalFuelConsumed = Number(
+  prompt("Digite o total de combustível gasto (litros):")?.replace(",", "."),
+);
 
 const averageConsumption = totalDistanceTraveled / totalFuelConsumed;
 

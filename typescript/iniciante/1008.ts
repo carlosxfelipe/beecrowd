@@ -2,7 +2,9 @@ import { bold, green } from "./../colors/colors";
 
 const employeeNumber = Number(prompt("Digite o número do funcionário:"));
 const workedHours = Number(prompt("Digite a quantidade de horas trabalhadas:"));
-const hourlyRate = Number(prompt("Digite o valor recebido por hora:")?.replace(",", "."));
+const hourlyRate = Number(
+  prompt("Digite o valor recebido por hora:")?.replace(",", "."),
+);
 
 const salary = workedHours * hourlyRate;
 

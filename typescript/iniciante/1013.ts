@@ -1,6 +1,8 @@
 import { bold, red } from "./../colors/colors";
 
-const input = (prompt("Digite três números separados por espaço:") ?? "").split(" ").map(Number);
+const input = (prompt("Digite três números separados por espaço:") ?? "").split(
+  " ",
+).map(Number);
 
 const A = input[0];
 const B = input[1];
