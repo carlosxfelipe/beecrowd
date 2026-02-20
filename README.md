@@ -14,6 +14,18 @@ dificuldade, o Beecrowd é amplamente utilizado por estudantes e profissionais
 para aprender algoritmos, estruturas de dados e técnicas de programação
 competitiva.
 
+## Observação sobre TypeScript no Beecrowd
+
+A plataforma **Beecrowd** executa códigos TypeScript no ambiente **Node.js**.\
+Os exemplos deste repositório foram feitos para rodar com **Bun** ou **Deno**,
+portanto podem precisar de ajustes para serem compatíveis com o ambiente do
+Beecrowd.
+
+No **Deno**, ao importar arquivos locais ou remotos, é obrigatório informar a
+**extensão completa do arquivo**.\
+Isso significa que, diferente do Node.js ou Bun, não é possível omitir `.ts`,
+`.js` ou outra extensão suportada.
+
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE). Sinta-se à vontade
